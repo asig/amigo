@@ -16,8 +16,8 @@ Just copy the binary to somewhere on your disk. Feel free to copy it into the
 logs directory as described on instructables.com
 
 # Usage
-`amigo [-logfile <path/to/latest.log>] [-serial <com-port>] [-baud <baudrate>] [-verbose]`
-
+1. Start Minecraft
+2. `amigo [-logfile <path/to/latest.log>] [-serial <com-port>] [-baud <baudrate>] [-verbose]`
 
 ## Flags
 
