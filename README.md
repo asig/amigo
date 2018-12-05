@@ -2,8 +2,9 @@
 
 `amigo` is a program that allows you to control an Arduino from 
 Minecraft, heavily inspired by https://www.instructables.com/id/Arduino-Minecraft-Interface/
-The main reason for writing this was that my son got a "Programmieren mit 
-Minecraft" advent calendar, but the shipped software didn't work...
+
+The main reason for writing this was that my son got a ["Adventskalender MAKERFACTORY Programmieren mit Minecraft™ und Windows-Java" advent calendar](https://www.conrad.ch/de/adventskalender-makerfactory-programmieren-mit-minecraft-und-windows-java-1662789.html),
+but the shipped software didn't work at all...
 
 # Build
 ```bash
