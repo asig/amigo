@@ -22,11 +22,11 @@ logs directory as described on instructables.com
 
 ## Flags
 
-| Flag         | Meaning                                                                  |
-|--------------|--------------------------------------------------------------------------|
-| `-logfile`   | Path to Minecraft's logfile. Default is 'latest.log'                     |
-| `-serial`    | COM-Port to use, e.g. COM3                                               |
-| `-baud`      | Baud rate. Default is 9600                                               |
-| `-verbose`   | If set, `amigo` is quite chatty and lets you know whatever it is doing   |
+| Flag         | Meaning                                                                      |
+|--------------|------------------------------------------------------------------------------|
+| `-logfile`   | Path to Minecraft's logfile. Default is 'latest.log'                         |
+| `-serial`    | COM-Port to use, e.g. COM3                                                   |
+| `-baud`      | Baud rate. Default is 9600                                                   |
+| `-verbose`   | If set, `amigo` is quite chatty and lets you know in detail what it is doing |
 
 Example: `amigo -logfile %APPDATA%\.minecraft\logs\latest.log -serial COM3 -baud 9600`
