@@ -27,6 +27,7 @@ import (
 	"log"
 	"os"
 	"regexp"
+	"time"
 
 	"github.com/tarm/serial"
 )
@@ -54,7 +55,9 @@ func tail(file *os.File, lines chan string) {
 		if err != nil && err != io.EOF {
 			log.Fatalf("Can't read from logfile: %s", err)
 		}
-		if read != 0 {
+		if read == 0 {
+			time.Sleep(10 * time.Millisecond)
+		} else {
 			if buf[0] == '\r' || buf[0] == '\n' {
 				if *verboseFlag {
 					log.Printf("Read line %q from logfile", curLine)
